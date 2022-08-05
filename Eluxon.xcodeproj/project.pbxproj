@@ -13,6 +13,8 @@
 		337A3267289D220600EB077A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337A3265289D220600EB077A /* Main.storyboard */; };
 		337A3269289D220700EB077A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337A3268289D220700EB077A /* Assets.xcassets */; };
 		337A326C289D220700EB077A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337A326A289D220700EB077A /* LaunchScreen.storyboard */; };
+		337A3276289D272200EB077A /* SwitchStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337A3275289D272200EB077A /* SwitchStatus.swift */; };
+		337A3278289D277A00EB077A /* Togglable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337A3277289D277A00EB077A /* Togglable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		337A3268289D220700EB077A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		337A326B289D220700EB077A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		337A326D289D220700EB077A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		337A3275289D272200EB077A /* SwitchStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchStatus.swift; sourceTree = "<group>"; };
+		337A3277289D277A00EB077A /* Togglable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Togglable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		337A325E289D220600EB077A /* Eluxon */ = {
 			isa = PBXGroup;
 			children = (
+				337A3274289D270000EB077A /* Protocols */,
+				337A3273289D26CD00EB077A /* Enums */,
 				337A325F289D220600EB077A /* AppDelegate.swift */,
 				337A3261289D220600EB077A /* SceneDelegate.swift */,
 				337A3263289D220600EB077A /* ViewController.swift */,
@@ -65,6 +71,22 @@
 				337A326D289D220700EB077A /* Info.plist */,
 			);
 			path = Eluxon;
+			sourceTree = "<group>";
+		};
+		337A3273289D26CD00EB077A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				337A3275289D272200EB077A /* SwitchStatus.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		337A3274289D270000EB077A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				337A3277289D277A00EB077A /* Togglable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +162,9 @@
 			files = (
 				337A3264289D220600EB077A /* ViewController.swift in Sources */,
 				337A3260289D220600EB077A /* AppDelegate.swift in Sources */,
+				337A3278289D277A00EB077A /* Togglable.swift in Sources */,
 				337A3262289D220600EB077A /* SceneDelegate.swift in Sources */,
+				337A3276289D272200EB077A /* SwitchStatus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
